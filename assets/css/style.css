@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+:root {
+    --black: #212529;
+    --grey: #707070;
+    --light: #F8F9FA;
+    --white: #fff;
+    --success: #28a745;
+}
+
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+#navbar, #container {
+    background-color: var(--success);
+    color: var(--white)
+}
+
+#button {
+    background-color: var(--light);
+    border: var(--grey);
+}
+
+#container {
+    font-weight: 500;
+}
+
+.card-text {
+    font-family: 'Roboto' !important;
+}
+
+.precio {
+    display: flex;
+}
+
+.precio a {
+    justify-content: flex-end;
+}
+
+footer img {
+    width: 82px;
+    height: 24px;
+} 
+
